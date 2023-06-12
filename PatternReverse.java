@@ -1,11 +1,11 @@
 import java.util.Scanner;
-class  Pattern{
+class  PatternReverse{
 public static void printLine(int n){
 for(int i=1;i<=n;i++){System.out.print(i);}
 }//class 
 public static void printPattern(int n)
 {
-for(int i=1;i<=n;i++){System.out.print("\n");printLine(i);}
+for(int i=n;i>=1;i--){System.out.print("\n");printLine(i);}
 }
 public static void main(String args[])
 {
