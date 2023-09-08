@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drope-Down</title>
+    <style>
+        body{
+            margin: 0;
+        }
+         ul{
+            list-style-type:none ;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color:#f1f1f1;  
+            position: fixed;
+            overflow: auto;
+            height: 100%;
+        }
+        li a{
+            display: block;
+            color: #a00;
+            text-decoration: none;
+            padding: 8px 16px;
+        }
+        li a.active{
+            background-color:orange;
+            color: aliceblue;
+        }
+        li a:hover:not(.active){
+            background-color:#555;
+            color:white;
+        }
+    </style>
+</head>
+<body bgcolor="pink">
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#About">About</a></li>
+    </ul>
+    <div style="margin-left: 25%; padding: 1px 16px; height: 1000px;">
+        <h2>Fixed Full-Height Side Nav</h2>
+        <h3>Try to Scroll this area and see how  the sidenav </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sint dicta, placeat itaque aliquam et tempora voluptas quidem quas tenetur cumque similique suscipit illum enim maiores laborum vero aperiam rerum autem distinctio expedita laboriosam in illo? Facilis similique perspiciatis praesentium inventore. Minus atque soluta dolores, mollitia dolorem tempore animi ipsum?</p>
+
+    </div>
+</body>
+</html>
