@@ -1,0 +1,50 @@
+<html>
+<head>
+<script>
+function add()
+{
+var num1,num2,sum;
+num1=parseInt(document.getElementById("textFirstNumber").value);
+num2=parseInt(document.getElementById("textFirstNumber").value);
+sum=num1+num2;
+document.getElementById("textAnswer").value=sum;
+}
+function sub()
+{
+var num1,num2,sub;
+num1=parseInt(document.getElementById("textFirstNumber").value);
+num2=parseInt(document.getElementById("textFirstNumber").value);
+sub=num1-num2;
+document.getElementById("textAnswer1").value=sub;
+}
+function mul()
+{
+var num1,num2,mul;
+num1=parseInt(document.getElementById("textFirstNumber").value);
+num2=parseInt(document.getElementById("textFirstNumber").value);
+mul=num1*num2;
+document.getElementById("textAnswer2").value=mul;
+}
+function div()
+{
+var num1,num2,div;
+num1=parseInt(document.getElementById("textFirstNumber").value);
+num2=parseInt(document.getElementById("textFirstNumber").value);
+div=num1/num2;
+document.getElementById("textAnswer3").value=div;
+}
+</script>
+</head>
+<body>
+<p> First number:<input id="textFirstNumber"></p>
+<p> Second number:<input id="textSecondNumber"></p>
+<button onclick="add()">Addition Them</button>
+<button onclick="sub()">Substract Them</button>
+<button onclick="mul()">Multiplication Them</button>
+<button onclick="div()">Divide Them</button>
+<p>sum=<input id="textAnswer"></p>
+<p>sub=<input id="textAnswer1"></p>
+<p>mul=<input id="textAnswer2"></p>
+<p>div=<input id="textAnswer3"></p>
+</body>
+</html>
