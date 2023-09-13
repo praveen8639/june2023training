@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h2>JAVASCRIPT HTML DOM</h2>
+        <P>FINDING HTML ELEMENTS BY TAG NAME</P>
+        <p>this example demostatres the <b>get elementbytag name</b></p>
+        <p id="demo"></p>
+        <script>
+            const element=document.getElementsByTagName("p");
+            document.getElementById("demo").innerHTML='the text in first pararaph (index 0) is:'+element[0].innerHTML+element[1].innerHTML;
+        </script>
+    </body>
+</html>
